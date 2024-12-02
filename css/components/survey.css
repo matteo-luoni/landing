@@ -1,0 +1,25 @@
+.survey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+  text-align: center;
+  flex-basis: 700px;
+}
+
+@media (max-width: 960px) {
+  .survey {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .survey {
+    width: 550px;
+  }
+}
+@media (max-width: 540px) {
+  .survey {
+    width: 400px;
+  }
+}
+

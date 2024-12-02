@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/button.css');
+@import url('components/banner.css');
+@import url('components/card.css');
+@import url('components/survey.css');
+
+body {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  margin: 0px;
+  background: black;
+  color: white;
+}
+h1, h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  margin: 20px;
+}
+
+h3 {
+  background:rgba(160, 124, 232, 1);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 15px;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+.text-gradient {
+  background:linear-gradient(120deg, rgba(160, 124, 232, 1), rgba(255, 153, 153, 1));
+  background-clip: text;
+  color: transparent;
+}
+.quote-mission {
+  text-align: center;
+  font-style: oblique;
+  margin: 5px 5px;
+  font-size: 24px;
+}
+
+.quote-help {
+  text-align: center;
+  margin: 5px 5px;
+  font-size: 20px;
+}
+

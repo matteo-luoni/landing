@@ -1,0 +1,75 @@
+
+/* TEAM SECTION */
+.cards-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-team {
+  border: 1.5px solid white;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  width: 165px;
+  margin: 10px;
+}
+
+.card-team img {
+  margin-bottom: 15px;
+}
+.card-team h4 {
+  margin: 2px 0;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.card-team a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.card-team a:hover {
+  color: white;
+}
+
+/* HELP SECTION */
+
+.cards-help {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.card-help{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  margin: 10px;
+  flex-basis: 250px;
+  flex-grow: 1;
+  border: 1.5px solid white;
+
+}
+.card-help img {
+  padding-left: 20px;
+  width: 100px;
+  border-radius: 4px;
+  filter: invert(1);
+}
+.card-help h4 {
+  flex-grow: 1;
+  font-size: 20px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.card-help p {
+  font-size: 16px;
+}
+
+
+

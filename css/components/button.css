@@ -1,0 +1,15 @@
+.btn-gradient {
+  background: linear-gradient(120deg, rgba(160, 124, 232, 1), rgba(255, 153, 153, 1));
+  color: black;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.btn-gradient:hover {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+
